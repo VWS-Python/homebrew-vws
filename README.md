@@ -1,2 +1,3 @@
-# homebrew-vws-cli
-Homebrew tap for VWS CLI
+# homebrew-vws
+
+Homebrew tap for VWS tools.
