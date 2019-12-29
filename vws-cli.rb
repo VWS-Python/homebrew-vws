@@ -1,7 +1,7 @@
 class VwsCli < Formula
   include Language::Python::Virtualenv
 
-  url "https://codeload.github.com/adamtheturtle/vws-cli/legacy.tar.gz/2019.12.29.3"
+  url "https://codeload.github.com/adamtheturtle/vws-cli/legacy.tar.gz/2019.12.29.4"
   head "https://github.com/adamtheturtle/vws-cli.git"
   homepage ""
   depends_on "python3"
