@@ -1,7 +1,7 @@
 class VwsCli < Formula
   include Language::Python::Virtualenv
 
-  url "https://codeload.github.com/adamtheturtle/vws-cli/legacy.tar.gz/2019.12.30.0"
+  url "https://codeload.github.com/adamtheturtle/vws-cli/legacy.tar.gz/2019.12.30.1"
   head "https://github.com/adamtheturtle/vws-cli.git"
   homepage ""
   depends_on "python3"
@@ -40,6 +40,11 @@ class VwsCli < Formula
   resource "requests" do
     url "https://files.pythonhosted.org/packages/01/62/ddcf76d1d19885e8579acb1b1df26a852b03472c0e46d2b959a714c90608/requests-2.22.0.tar.gz"
     sha256 "11e007a8a2aa0323f5a921e9e6a2d7e4e67d9877e85773fba9ba6419025cbeb4"
+  end
+
+  resource "setuptools-scm" do
+    url "https://files.pythonhosted.org/packages/83/44/53cad68ce686585d12222e6769682c4bdb9686808d2739671f9175e2938b/setuptools_scm-3.3.3.tar.gz"
+    sha256 "bd25e1fb5e4d603dcf490f1fde40fb4c595b357795674c3e5cb7f6217ab39ea5"
   end
 
   resource "timeout-decorator" do
