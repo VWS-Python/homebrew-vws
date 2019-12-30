@@ -1,7 +1,7 @@
 class VwsCli < Formula
   include Language::Python::Virtualenv
 
-  url "https://codeload.github.com/adamtheturtle/vws-cli/legacy.tar.gz/2019.12.29.7"
+  url "https://codeload.github.com/adamtheturtle/vws-cli/legacy.tar.gz/2019.12.30.0"
   head "https://github.com/adamtheturtle/vws-cli.git"
   homepage ""
   depends_on "python3"
@@ -23,8 +23,8 @@ class VwsCli < Formula
   end
 
   resource "click-pathlib" do
-    url "https://files.pythonhosted.org/packages/2c/14/6e4a9e9efc10ff0e8566c6f05b5c166c59fb13873bf25e76422a83c45fba/click-pathlib-2019.6.13.1.tar.gz"
-    sha256 "a62babe7a52c34d00f64cc199442cebf68ccc067443e93a22e5ca3ee99785e6b"
+    url "https://files.pythonhosted.org/packages/29/4b/f6b7f5db8119e8e501fd693171f4aabc7c74b30573e8ac5e57fdfd756c29/click-pathlib-2019.12.28.7.tar.gz"
+    sha256 "9edaf8e92bbe622a62417f2f6a1fb69ad388a9d1d977b7b692dc45d910f37abc"
   end
 
   resource "idna" do
