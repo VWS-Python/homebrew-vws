@@ -1,10 +1,10 @@
-class VWSCLI < Formula
+class VwsCli < Formula
   include Language::Python::Virtualenv
 
-  desc "Shiny new formula"
+  desc "CLI for Vuforia Web Services"
   homepage "https://github.com/VWS-Python/vws-cli"
-  url "https://files.pythonhosted.org/packages/7c/58/b4d3cdc740fb2f779e4bcb34e55707cacd417e549cfd465fb4cf2ebccaac/VWS%20CLI-2021.12.15.4.tar.gz"
-  sha256 "ddd9936e886951853557060ec4c4670ec34c6f4a1ea0666209e6a6e01461f03a"
+  url "https://files.pythonhosted.org/packages/00/49/c39c4c833ae1d0f243881ac3dd7bc160f042a8d6897b05019cebfe1101dd/VWS%20CLI-2021.12.15.5.tar.gz"
+  sha256 "972fc9b81560bbfb95f7e58bbfb44c13f77c054253066155a96facb6ba00b08a"
 
   depends_on "python3"
 
