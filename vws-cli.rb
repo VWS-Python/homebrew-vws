@@ -1,11 +1,12 @@
-class VwsCli < Formula
+class VWSCLI < Formula
   include Language::Python::Virtualenv
 
-  url "https://codeload.github.com/VWS-Python/vws-cli/legacy.tar.gz/refs/tags/2021.12.15.1"
-  head "https://github.com/VWS-Python/vws-cli.git"
-  homepage ""
-  depends_on "python@3.9"
-  depends_on "pkg-config"
+  desc "Shiny new formula"
+  homepage "https://github.com/VWS-Python/vws-cli"
+  url "https://files.pythonhosted.org/packages/f6/d1/40c1f9bda7f476615957df73d4fd018b43d5a1b5202151bd01dcab9ed20b/VWS%20CLI-2021.12.15.2.tar.gz"
+  sha256 "f29742dd836fb216faec2aa8923d6d204f00b212481164a6ed95b180c15bf5e2"
+
+  depends_on "python3"
 
   resource "certifi" do
     url "https://files.pythonhosted.org/packages/6c/ae/d26450834f0acc9e3d1f74508da6df1551ceab6c2ce0766a593362d6d57f/certifi-2021.10.8.tar.gz"
@@ -82,8 +83,12 @@ class VwsCli < Formula
     sha256 "1fea9cd438686e6682271d36f3481a9f3636195578bab9ca3382e2f5f01fc185"
   end
 
-
   def install
+    virtualenv_create(libexec, "python3")
     virtualenv_install_with_resources
+  end
+
+  test do
+    false
   end
 end
