@@ -1,7 +1,7 @@
 class VwsCli < Formula
   include Language::Python::Virtualenv
 
-  url "https://codeload.github.com/VWS-Python/vws-cli/legacy.tar.gz/refs/tags/2021.12.13.21"
+  url "https://codeload.github.com/VWS-Python/vws-cli/legacy.tar.gz/refs/tags/2021.12.15.1"
   head "https://github.com/VWS-Python/vws-cli.git"
   homepage ""
   depends_on "python@3.9"
@@ -58,8 +58,8 @@ class VwsCli < Formula
   end
 
   resource "tomli" do
-    url "https://files.pythonhosted.org/packages/aa/5b/62165da80cbc6e1779f342234c7ddc6c6bc9e64cef149046a9c0456f912b/tomli-1.2.2.tar.gz"
-    sha256 "c6ce0015eb38820eaf32b5db832dbc26deb3dd427bd5f6556cf0acac2c214fee"
+    url "https://files.pythonhosted.org/packages/fb/2e/d0a8276b0cf9b9e34fd0660c330acc59656f53bb2209adc75af863a3582d/tomli-1.2.3.tar.gz"
+    sha256 "05b6166bff487dc068d322585c7ea4ef78deed501cc124060e0f238e89a9231f"
   end
 
   resource "urllib3" do
