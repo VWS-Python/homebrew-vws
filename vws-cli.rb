@@ -3,8 +3,8 @@ class VWSCLI < Formula
 
   desc "Shiny new formula"
   homepage "https://github.com/VWS-Python/vws-cli"
-  url "https://files.pythonhosted.org/packages/f6/d1/40c1f9bda7f476615957df73d4fd018b43d5a1b5202151bd01dcab9ed20b/VWS%20CLI-2021.12.15.2.tar.gz"
-  sha256 "f29742dd836fb216faec2aa8923d6d204f00b212481164a6ed95b180c15bf5e2"
+  url "https://files.pythonhosted.org/packages/7c/58/b4d3cdc740fb2f779e4bcb34e55707cacd417e549cfd465fb4cf2ebccaac/VWS%20CLI-2021.12.15.4.tar.gz"
+  sha256 "ddd9936e886951853557060ec4c4670ec34c6f4a1ea0666209e6a6e01461f03a"
 
   depends_on "python3"
 
