@@ -3,19 +3,19 @@ class VwsCli < Formula
 
   desc "CLI for Vuforia Web Services"
   homepage ""
-  url "https://files.pythonhosted.org/packages/1c/05/94cc8785218ff5d11a648255e4ebaa92edddd11b6aadd9a5f59cc0831221/vws_cli-2023.9.9.tar.gz"
-  sha256 "bce854e64e479ff174773ad96d91d06341b2efe3a8ba4bdb372cc257fb8af11a"
+  url "https://files.pythonhosted.org/packages/26/ec/7020971e3f82b6ba98244c57d2e07d36f609cb8956d4c180253dd7c8d856/vws-cli-2024.1.30.2.tar.gz"
+  sha256 "691413e09d602ff87e82850633c744870e5e919b1ebea6b13ea718c25e577998"
 
   depends_on "python3"
 
   resource "certifi" do
-    url "https://files.pythonhosted.org/packages/98/98/c2ff18671db109c9f10ed27f5ef610ae05b73bd876664139cf95bd1429aa/certifi-2023.7.22.tar.gz"
-    sha256 "539cc1d13202e33ca466e88b2807e29f4c13049d6d87031a3c110744495cb082"
+    url "https://files.pythonhosted.org/packages/d4/91/c89518dd4fe1f3a4e3f6ab7ff23cb00ef2e8c9adf99dacc618ad5e068e28/certifi-2023.11.17.tar.gz"
+    sha256 "9b469f3a900bf28dc19b8cfbf8019bf47f7fdd1a65a1d4ffb98fc14166beb4d1"
   end
 
   resource "charset-normalizer" do
-    url "https://files.pythonhosted.org/packages/2a/53/cf0a48de1bdcf6ff6e1c9a023f5f523dfe303e4024f216feac64b6eb7f67/charset-normalizer-3.2.0.tar.gz"
-    sha256 "3bb3d25a8e6c0aedd251753a79ae98a093c7e7b471faa3aa9a93a81431987ace"
+    url "https://files.pythonhosted.org/packages/63/09/c1bc53dab74b1816a00d8d030de5bf98f724c52c1635e07681d312f20be8/charset-normalizer-3.3.2.tar.gz"
+    sha256 "f30c3cb33b24454a82faecaf01b19c18562b1e89558fb6c56de4d9118a032fd5"
   end
 
   resource "click" do
@@ -24,13 +24,8 @@ class VwsCli < Formula
   end
 
   resource "idna" do
-    url "https://files.pythonhosted.org/packages/8b/e1/43beb3d38dba6cb420cefa297822eac205a277ab43e5ba5d5c46faf96438/idna-3.4.tar.gz"
-    sha256 "814f528e8dead7d329833b91c5faa87d60bf71824cd12a7530b5526063d02cb4"
-  end
-
-  resource "packaging" do
-    url "https://files.pythonhosted.org/packages/b9/6c/7c6658d258d7971c5eb0d9b69fa9265879ec9a9158031206d47800ae2213/packaging-23.1.tar.gz"
-    sha256 "a392980d2b6cffa644431898be54b0045151319d1e7ec34f0cfed48767dd334f"
+    url "https://files.pythonhosted.org/packages/bf/3f/ea4b9117521a1e9c50344b909be7886dd00a519552724809bb1f486986c2/idna-3.6.tar.gz"
+    sha256 "9ecdbbd083b06798ae1e86adcbfe8ab1479cf864e4ee30fe4e46a003d12491ca"
   end
 
   resource "PyYAML" do
@@ -43,19 +38,9 @@ class VwsCli < Formula
     sha256 "942c5a758f98d790eaed1a29cb6eefc7ffb0d1cf7af05c3d2791656dbd6ad1e1"
   end
 
-  resource "setuptools-scm" do
-    url "https://files.pythonhosted.org/packages/98/12/2c1e579bb968759fc512391473340d0661b1a8c96a59fb7c65b02eec1321/setuptools_scm-7.1.0.tar.gz"
-    sha256 "6c508345a771aad7d56ebff0e70628bf2b0ec7573762be9960214730de278f27"
-  end
-
-  resource "typing-extensions" do
-    url "https://files.pythonhosted.org/packages/3c/8b/0111dd7d6c1478bf83baa1cab85c686426c7a6274119aceb2bd9d35395ad/typing_extensions-4.7.1.tar.gz"
-    sha256 "b75ddc264f0ba5615db7ba217daeb99701ad295353c45f9e95963337ceeeffb2"
-  end
-
   resource "urllib3" do
-    url "https://files.pythonhosted.org/packages/31/ab/46bec149bbd71a4467a3063ac22f4486ecd2ceb70ae8c70d5d8e4c2a7946/urllib3-2.0.4.tar.gz"
-    sha256 "8d22f86aae8ef5e410d4f539fde9ce6b2113a001bb4d189e0aed70642d602b11"
+    url "https://files.pythonhosted.org/packages/e2/cc/abf6746cc90bc52df4ba730f301b89b3b844d6dc133cb89a01cfe2511eb9/urllib3-2.2.0.tar.gz"
+    sha256 "051d961ad0c62a94e50ecf1af379c3aba230c66c710493493560c0c223c49f20"
   end
 
   resource "vws-auth-tools" do
@@ -64,8 +49,8 @@ class VwsCli < Formula
   end
 
   resource "vws-python" do
-    url "https://files.pythonhosted.org/packages/80/ca/7e5c334ac26853761c11a28322178165dc41e1e233e845782836bbabe3fe/vws-python-2023.5.21.tar.gz"
-    sha256 "712d470729b09cd82b0fd80952203acaf3702848697a4c8702feeb809b59985f"
+    url "https://files.pythonhosted.org/packages/a4/74/168cbc8463f93c20b63a4e49dccda5a75516e6c2d8d6fa13ccfe007881b4/vws-python-2023.12.27.tar.gz"
+    sha256 "54e5d40afd24d5d8253fea3c1026e5b0279171fb9679ae8eccb83d31213484a4"
   end
 
   def install
