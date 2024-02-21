@@ -3,14 +3,14 @@ class VwsCli < Formula
 
   desc "CLI for Vuforia Web Services"
   homepage ""
-  url "https://files.pythonhosted.org/packages/9f/91/ab8b498ba81f80e8c708877ede356c05da38b067b5aeb882d93b2e6b4a3d/vws-cli-2024.1.31.1.tar.gz"
-  sha256 "5915cd8e6fd83446e797a77f6a33f24a8a10b62bebc11c14c829ca49de54cc55"
+  url "https://files.pythonhosted.org/packages/24/1a/d7be1edebcc818a769c48a4314acb524a5220209c1ea7003c8f8ee337280/vws-cli-2024.2.21.1.tar.gz"
+  sha256 "2b0ed7c46ac12b44a7e92dc31acc03c0bc560477732e26d0fe719d238a844ea2"
 
   depends_on "python3"
 
   resource "certifi" do
-    url "https://files.pythonhosted.org/packages/d4/91/c89518dd4fe1f3a4e3f6ab7ff23cb00ef2e8c9adf99dacc618ad5e068e28/certifi-2023.11.17.tar.gz"
-    sha256 "9b469f3a900bf28dc19b8cfbf8019bf47f7fdd1a65a1d4ffb98fc14166beb4d1"
+    url "https://files.pythonhosted.org/packages/71/da/e94e26401b62acd6d91df2b52954aceb7f561743aa5ccc32152886c76c96/certifi-2024.2.2.tar.gz"
+    sha256 "0569859f95fc761b18b45ef421b1290a0f65f147e92a1e5eb3e635f9a5e4e66f"
   end
 
   resource "charset-normalizer" do
@@ -39,8 +39,8 @@ class VwsCli < Formula
   end
 
   resource "urllib3" do
-    url "https://files.pythonhosted.org/packages/e2/cc/abf6746cc90bc52df4ba730f301b89b3b844d6dc133cb89a01cfe2511eb9/urllib3-2.2.0.tar.gz"
-    sha256 "051d961ad0c62a94e50ecf1af379c3aba230c66c710493493560c0c223c49f20"
+    url "https://files.pythonhosted.org/packages/7a/50/7fd50a27caa0652cd4caf224aa87741ea41d3265ad13f010886167cfcc79/urllib3-2.2.1.tar.gz"
+    sha256 "d0570876c61ab9e520d776c38acbbb5b05a776d3f9ff98a5c8fd5162a444cf19"
   end
 
   resource "vws-auth-tools" do
@@ -49,8 +49,8 @@ class VwsCli < Formula
   end
 
   resource "vws-python" do
-    url "https://files.pythonhosted.org/packages/a4/74/168cbc8463f93c20b63a4e49dccda5a75516e6c2d8d6fa13ccfe007881b4/vws-python-2023.12.27.tar.gz"
-    sha256 "54e5d40afd24d5d8253fea3c1026e5b0279171fb9679ae8eccb83d31213484a4"
+    url "https://files.pythonhosted.org/packages/d2/cd/9e0fef8be88a6e6f79c402fad08c4b42797652ab451a4ed31e0d46ee43b2/vws-python-2024.2.19.tar.gz"
+    sha256 "cc765b30de513dc84c6ff030ee8cc3cc8d50bc5f8f9e5b7a0780eb5b20a986a3"
   end
 
   def install
