@@ -3,8 +3,8 @@ class VwsCli < Formula
 
   desc "CLI for Vuforia Web Services"
   homepage ""
-  url "https://files.pythonhosted.org/packages/1a/f2/4944443b89e212204cca79ac06a09d015e7c6e78cbb0fca399b6054a39b7/vws-cli-2024.2.21.2.tar.gz"
-  sha256 "20787ac55f14b96f8c7781c79a2cb5f803bd15b3b00fb7afd3e5aea2c6ecf07b"
+  url "https://files.pythonhosted.org/packages/41/5e/477d54d391f0a3810cdceb62e41f829953c25e511f01ba6314910f120e6d/vws-cli-2024.2.21.3.tar.gz"
+  sha256 "6f5b3f0d2a330d7b2164393288269800863867717c7cf3f05a2b28f8bc262947"
 
   depends_on "python3"
 
