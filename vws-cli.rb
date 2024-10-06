@@ -3,14 +3,14 @@ class VwsCli < Formula
 
   desc "CLI for Vuforia Web Services"
   homepage "None"
-  url "https://files.pythonhosted.org/packages/42/97/4dd446708cc1761807132d928cdcb6231a680c09de91a322d2ae2b52a156/vws_cli-2024.9.11.tar.gz"
-  sha256 "b2f458847e3d52ad0f4296cf30b1fa76d905af2d3c064cf65c5eb4ce4ac0c584"
+  url "https://files.pythonhosted.org/packages/87/0f/0706effcf89202d520395e0426f6efdce580bdb46be827d12b19f7747777/vws_cli-2024.10.6.tar.gz"
+  sha256 "253aff521588cfc08de30e765eb4204f1454b35a1e3c9530faeddea1137bbeb5"
 
   depends_on "python3"
 
   resource "beartype" do
-    url "https://files.pythonhosted.org/packages/96/15/4e623478a9628ad4cee2391f19aba0b16c1dd6fedcb2a399f0928097b597/beartype-0.18.5.tar.gz"
-    sha256 "264ddc2f1da9ec94ff639141fbe33d22e12a9f75aa863b83b7046ffff1381927"
+    url "https://files.pythonhosted.org/packages/6f/e1/00515b97afa3993b4a314e4bc168fbde0917fd5845435cb6f16a19770746/beartype-0.19.0.tar.gz"
+    sha256 "de42dfc1ba5c3710fde6c3002e3bd2cad236ed4d2aabe876345ab0b4234a6573"
   end
 
   resource "certifi" do
@@ -29,8 +29,8 @@ class VwsCli < Formula
   end
 
   resource "idna" do
-    url "https://files.pythonhosted.org/packages/e8/ac/e349c5e6d4543326c6883ee9491e3921e0d07b55fdf3cce184b40d63e72a/idna-3.8.tar.gz"
-    sha256 "d838c2c0ed6fced7693d5e8ab8e734d5f8fda53a039c0164afb0b82e771e3603"
+    url "https://files.pythonhosted.org/packages/f1/70/7703c29685631f5a7590aa73f1f1d3fa9a380e654b86af429e0934a32f7d/idna-3.10.tar.gz"
+    sha256 "12f65c9b470abda6dc35cf8e63cc574b1c52b11df2c86030af0ac09b01b13ea9"
   end
 
   resource "PyYAML" do
@@ -44,8 +44,8 @@ class VwsCli < Formula
   end
 
   resource "urllib3" do
-    url "https://files.pythonhosted.org/packages/43/6d/fa469ae21497ddc8bc93e5877702dca7cb8f911e337aca7452b5724f1bb6/urllib3-2.2.2.tar.gz"
-    sha256 "dd505485549a7a552833da5e6063639d0d177c04f23bc3864e41e5dc5f612168"
+    url "https://files.pythonhosted.org/packages/ed/63/22ba4ebfe7430b76388e7cd448d5478814d3032121827c12a2cc287e2260/urllib3-2.2.3.tar.gz"
+    sha256 "e7d814a81dad81e6caf2ec9fdedb284ecc9c73076b62654547cc64ccdcae26e9"
   end
 
   resource "vws-auth-tools" do
@@ -54,8 +54,8 @@ class VwsCli < Formula
   end
 
   resource "vws-python" do
-    url "https://files.pythonhosted.org/packages/00/29/b2a2d75cb4ab192b2dbd974b4fbd6dfd95eccbbac58704d00b72e8870630/vws_python-2024.9.4.1.tar.gz"
-    sha256 "877cef5c0122f30ce42f7ea48116c943899570b6300f790ef9ead66d870b329d"
+    url "https://files.pythonhosted.org/packages/10/48/c50742e07489c40df919cdfc9cea89610c35d126f10f86bc86ffe33e2604/vws_python-2024.9.21.tar.gz"
+    sha256 "579ecf4c921c834c2876ee357b735d9850d2a7b1fd25af201f4f19079f488a9d"
   end
 
   def install
