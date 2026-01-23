@@ -1,5 +1,8 @@
 repos:
-  - repo: https://github.com/pdobb/ruby-syntax-check-pre-commit
-    rev: v0.1.0
+  - repo: local
     hooks:
-      - id: ruby-syntax-check
+      - id: ruby-syntax
+        name: Ruby syntax check
+        entry: ruby -c
+        language: system
+        types: [ruby]
