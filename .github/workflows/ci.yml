@@ -19,7 +19,7 @@ jobs:
         uses: Homebrew/actions/setup-homebrew@master
 
       - name: Audit formula
-        run: brew audit --strict --online vws-cli.rb
+        run: brew audit --strict --online vws-cli
         env:
           HOMEBREW_GITHUB_API_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
