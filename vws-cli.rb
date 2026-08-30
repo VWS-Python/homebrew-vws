@@ -3,8 +3,8 @@ class VwsCli < Formula
 
   desc "CLI for Vuforia Web Services"
   homepage "None"
-  url "https://files.pythonhosted.org/packages/d7/31/4afbd6ea6d9957d1176197420d57fe6d81d31858ed2325ea0afc94f0460d/vws_cli-2026.8.16.1.tar.gz"
-  sha256 "d867339f0f9cdc0ed06151af8e0a418dfb04ec5040979d6a849506132e85cfb1"
+  url "https://files.pythonhosted.org/packages/3e/2c/0b8772e892acb1594441788e81c1a2fddde2abe83f1c7b004a15088fc278/vws_cli-2026.8.30.tar.gz"
+  sha256 "80893febcb6aecf6f91517a48ae80c4d4358e970ae75e6c5997d21985ade7e0c"
 
   depends_on "python3"
 
@@ -74,8 +74,8 @@ class VwsCli < Formula
   end
 
   resource "vws-python" do
-    url "https://files.pythonhosted.org/packages/3f/50/b65d70abb437082f723fc71f01003c0fa7a5ff4ee0aff990ec9878609a9a/vws_python-2026.8.14.tar.gz"
-    sha256 "bfcfc6196cbecb0e0c8f11fd7c358d53a8453a102078e8482ac6cc4c885239ca"
+    url "https://files.pythonhosted.org/packages/0d/6b/89de512a99ab736c288d98181e6309419f51db5b5238209575c2612ac0e4/vws_python-2026.8.26.tar.gz"
+    sha256 "a02898c776537992fd83b11eda0df8ccf7e7341d399ca8250b99eb53c4225635"
   end
 
   def install
