@@ -3,8 +3,8 @@ class VwsCli < Formula
 
   desc "CLI for Vuforia Web Services"
   homepage "None"
-  url "https://files.pythonhosted.org/packages/ed/79/c781b878edc902ff9ecdf09215aaff1820ca36c452479f34900ca50ce38d/vws_cli-2026.8.30.5.tar.gz"
-  sha256 "25252c3786edf3c7f9a867fd607eb870bdc95df59c96e667132b53298b3a25e1"
+  url "https://files.pythonhosted.org/packages/ea/0b/7b249580b53c1266787c553a1aebfa63e26181aeaa5c49a7772dfda475f6/vws_cli-2026.9.8.tar.gz"
+  sha256 "757244b0fdaf11086564abe46708c990623ebd22cc58b2a1a04fde97913b6d47"
 
   depends_on "python3"
 
@@ -29,8 +29,8 @@ class VwsCli < Formula
   end
 
   resource "click" do
-    url "https://files.pythonhosted.org/packages/76/d4/81420972a676e8ffea40450d8c8c92943e7218a78fe9b64359836cc9876b/click-8.4.2.tar.gz"
-    sha256 "9a6cea6e60b17ebe0a44c5cc636d94f09bd66142c1cd7d8b4cd731c4917a15f6"
+    url "https://files.pythonhosted.org/packages/c7/0e/7fa0ef50764b67090eca4114772a2abf8b6148198475e54c660b97caeee6/click-8.5.0.tar.gz"
+    sha256 "ba0d2089de75ea0310e2dde03160e6ca10009947fb95a182f9b54021bb272e34"
   end
 
   resource "h11" do
